@@ -8,6 +8,8 @@
 
     Navegador web.
 
+    Cuenta Stripe
+
 Instalación y configuración
 1. Clonar o descargar el repositorio
 
@@ -35,7 +37,12 @@ Pasos para importar:
 
     7.Presiona Continuar y espera a que se importe la base de datos.
 
-3. Configurar la conexión a la base de datos
+
+3. Usar clave secreta de stripe en path: procesar_pago.php:7
+
+
+4.  Configurar la conexión a la base de datos
+
 
 Abre el archivo de configuración de la base de datos en el proyecto (por ejemplo, config.php o similar) y ajusta los parámetros de conexión a MySQL:
 
