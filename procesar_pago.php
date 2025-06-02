@@ -4,7 +4,7 @@ require 'vendor/autoload.php';
     require("abrirConexion.php");
     require("Modelos/Carrito.php");
 
-\Stripe\Stripe::setApiKey('sk_test_51MyAMmBZ3HTg0855dp5igs5ZZWBAaeVQHH7QHq9ewQYfgcIAzaLqWlnnHrtXXvPcnZnyv2NJ2kszUkWCvvU7Sis500FFhJ8Y25'); // Tu clave secreta
+\Stripe\Stripe::setApiKey(''); // Tu clave secreta
 
 // Validar sesión antes de usar
 if (!isset($_SESSION["Id"])) {
